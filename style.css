@@ -26,7 +26,7 @@ small {
 
 .picture {
   width: 300px;
-  height: 450px;
+  height: 420px;
   margin: 10px auto;
   background-image: url("https://source.unsplash.com//a-green-and-purple-aurora-bore-in-the-night-sky-cKGtI-S5EPY");
   background-repeat: no-repeat;
@@ -39,13 +39,13 @@ small {
 
 .picture .fa-heart {
   position: absolute;
-  animation: grow 0.5s ease-in-out;
+  animation: grow 0.4s linear;
   transform: translate(-50%, -50%) scale(0);
 }
 
 @keyframes grow {
   to {
-    transform: translate(-50%, -50%) scale(10);
+    transform: translate(-50%, -50%) scale(5);
     opacity: 0;
   }
 }

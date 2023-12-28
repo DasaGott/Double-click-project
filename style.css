@@ -36,3 +36,16 @@ small {
   max-width: 100%;
   position: relative;
 }
+
+.picture .fa-heart {
+  position: absolute;
+  animation: grow 0.5s ease-in-out;
+  transform: translate(-50%, -50%) scale(0);
+}
+
+@keyframes grow {
+  to {
+    transform: translate(-50%, -50%) scale(10);
+    opacity: 0;
+  }
+}
